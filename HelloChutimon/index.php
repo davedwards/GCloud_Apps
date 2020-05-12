@@ -1,3 +1,11 @@
 <?php
 
-echo "hello world!";
+echo "Hey Chutimon!";
+
+$dbhost = 'localhost';
+$dbuser = 'root';
+$dbpass = 'student';
+
+$conn = mysql_connect($dbhost, $dbuser, $dbpass);
+
+print $conn;
